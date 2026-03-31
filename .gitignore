@@ -1,0 +1,35 @@
+# OS / файловый мусор
+.DS_Store
+Thumbs.db
+
+# IDE / редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+Task2/locust/.venv/
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
