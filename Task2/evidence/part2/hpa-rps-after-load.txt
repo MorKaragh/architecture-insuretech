@@ -1,0 +1,2 @@
+NAME                      REFERENCE                        TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-rps   Deployment/insuretech-demo-app   51m/5     1         10        2          7m13s

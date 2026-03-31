@@ -29,7 +29,8 @@ env/
 ENV/
 Task2/locust/.venv/
 
-# Логи и временные файлы
+# Логи и временные файлы (артефакты задания в evidence коммитим)
 *.log
+!Task2/evidence/**/*.log
 *.tmp
 *.temp

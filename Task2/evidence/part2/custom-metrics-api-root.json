@@ -1,0 +1,1 @@
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"custom.metrics.k8s.io/v1beta1","resources":[{"name":"namespaces/http_requests_per_second","singularName":"","namespaced":false,"kind":"MetricValueList","verbs":["get"]},{"name":"pods/http_requests_per_second","singularName":"","namespaced":true,"kind":"MetricValueList","verbs":["get"]}]}
