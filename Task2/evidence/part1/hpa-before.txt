@@ -1,2 +1,0 @@
-NAME                         REFERENCE                        TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
-insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 63%/80%   1         10        1          2m30s

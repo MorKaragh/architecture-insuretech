@@ -32,5 +32,7 @@ Task2/locust/.venv/
 # Логи и временные файлы (артефакты задания в evidence коммитим)
 *.log
 !Task2/evidence/**/*.log
+# Случайные выводы kubectl port-forward в evidence (не артефакт задания)
+Task2/evidence/**/port-forward*.log
 *.tmp
 *.temp

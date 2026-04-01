@@ -34,7 +34,7 @@
 
 ---
 
-## Остальные материалы
+## Текстовые артефакты и нагрузка
 
-- Нагрузка: [`locust/locustfile.py`](locust/locustfile.py)
-- Логи и выгрузки: [`evidence/part1/`](evidence/part1/), [`evidence/part2/`](evidence/part2/)
+- Сценарий Locust: [`locust/locustfile.py`](locust/locustfile.py)
+- Расшифровка файлов в `evidence/`: [`evidence/README.md`](evidence/README.md)
