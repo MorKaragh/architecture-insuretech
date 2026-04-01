@@ -55,4 +55,4 @@
 ## Артефакты
 
 - Диаграмма to-be: `Task3/InsureTech_C4_container-diagram-to-be.drawio.xml`
-- Исходная схема для сравнения: `Task3/context/InsureTech_C4_сontainer-diagram.drawio.xml`
+- Исходная схема для сравнения: `Task3/context/InsureTech_C4_container-diagram.drawio.xml`
