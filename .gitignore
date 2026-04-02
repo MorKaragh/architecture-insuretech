@@ -22,12 +22,17 @@ __pycache__/
 .coverage.*
 htmlcov/
 
-# Виртуальные окружения
+# Виртуальные окружения (любой каталог .venv/ в репозитории)
 .venv/
 venv/
 env/
 ENV/
 Task2/locust/.venv/
+Task5/demo/.venv/
+
+# Резервные копии draw.io / временные файлы редакторов
+*.drawio.bkp
+.$*.drawio.bkp
 
 # Логи и временные файлы (артефакты задания в evidence коммитим)
 *.log

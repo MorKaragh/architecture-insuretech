@@ -2,7 +2,7 @@
 
 | Каталог | Содержание |
 |---------|------------|
-| `screenshots/` | PNG для основного [`README.md`](../README.md) |
+| `screenshots/` | PNG для описания решения в [`SOLUTION.md`](../SOLUTION.md) |
 | `part1/` | Часть 1 (HPA по памяти): `kubectl get hpa/pods`, `hpa-during-load.log`, вывод Locust |
 | `part2/` | Часть 2: JSON API Prometheus и custom metrics, выводы HPA по RPS, Locust |
 
