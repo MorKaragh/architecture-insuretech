@@ -1,0 +1,39 @@
+# GraphQL-схема сервиса client-info (эквивалент Swagger из задания)
+# Кодировка: UTF-8. Поля в camelCase — как в REST JSON.
+
+"""
+Корневой тип запросов. Один entry-point `client` заменяет несколько REST-ресурсов:
+вложенные поля `documents` и `relatives` возвращаются только если запрошены в selection set.
+"""
+type Query {
+  """Получить клиента по идентификатору (аналог GET /v1/clients/{id})."""
+  client(id: ID!): Client
+}
+
+"""
+Клиент. Вложенные списки соответствуют GET /v1/clients/{id}/documents и .../relatives.
+"""
+type Client {
+  id: ID!
+  name: String
+  age: Int
+  """Документы клиента. Запрашивается опционально — снижает объём ответа при отсутствии в запросе."""
+  documents: [Document!]!
+  """Родственники. Аналогично — только при явном запросе в GraphQL."""
+  relatives: [Relative!]!
+}
+
+type Document {
+  id: ID!
+  type: String
+  number: String
+  issueDate: String
+  expiryDate: String
+}
+
+type Relative {
+  id: ID!
+  relationType: String
+  name: String
+  age: Int
+}

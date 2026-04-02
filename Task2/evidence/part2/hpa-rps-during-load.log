@@ -1,0 +1,80 @@
+2026-04-01T01:12:48+03:00
+NAME                      REFERENCE                        TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-rps   Deployment/insuretech-demo-app   66m/5     1         10        1          5m49s
+replicas=1,ready=1,available=1
+---
+2026-04-01T01:12:53+03:00
+NAME                      REFERENCE                        TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-rps   Deployment/insuretech-demo-app   66m/5     1         10        1          5m54s
+replicas=1,ready=,available=
+---
+2026-04-01T01:12:58+03:00
+NAME                      REFERENCE                        TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-rps   Deployment/insuretech-demo-app   66m/5     1         10        1          6m
+replicas=1,ready=1,available=1
+---
+2026-04-01T01:13:04+03:00
+NAME                      REFERENCE                        TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-rps   Deployment/insuretech-demo-app   6242m/5   1         10        1          6m5s
+replicas=2,ready=2,available=2
+---
+2026-04-01T01:13:09+03:00
+NAME                      REFERENCE                        TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-rps   Deployment/insuretech-demo-app   6242m/5   1         10        1          6m10s
+replicas=2,ready=2,available=2
+---
+2026-04-01T01:13:14+03:00
+NAME                      REFERENCE                        TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-rps   Deployment/insuretech-demo-app   6242m/5   1         10        1          6m15s
+replicas=2,ready=2,available=2
+---
+2026-04-01T01:13:19+03:00
+NAME                      REFERENCE                        TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-rps   Deployment/insuretech-demo-app   6529m/5   1         10        2          6m21s
+replicas=2,ready=2,available=2
+---
+2026-04-01T01:13:25+03:00
+NAME                      REFERENCE                        TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-rps   Deployment/insuretech-demo-app   6529m/5   1         10        2          6m26s
+replicas=2,ready=2,available=2
+---
+2026-04-01T01:13:30+03:00
+NAME                      REFERENCE                        TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-rps   Deployment/insuretech-demo-app   6529m/5   1         10        2          6m31s
+replicas=2,ready=2,available=2
+---
+2026-04-01T01:13:35+03:00
+NAME                      REFERENCE                        TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-rps   Deployment/insuretech-demo-app   6262m/5   1         10        2          6m36s
+replicas=2,ready=2,available=2
+---
+2026-04-01T01:13:40+03:00
+NAME                      REFERENCE                        TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-rps   Deployment/insuretech-demo-app   6262m/5   1         10        2          6m42s
+replicas=2,ready=2,available=2
+---
+2026-04-01T01:13:46+03:00
+NAME                      REFERENCE                        TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-rps   Deployment/insuretech-demo-app   39m/5     1         10        2          6m47s
+replicas=2,ready=2,available=2
+---
+2026-04-01T01:13:51+03:00
+NAME                      REFERENCE                        TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-rps   Deployment/insuretech-demo-app   39m/5     1         10        2          6m52s
+replicas=2,ready=2,available=2
+---
+2026-04-01T01:13:56+03:00
+NAME                      REFERENCE                        TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-rps   Deployment/insuretech-demo-app   39m/5     1         10        2          6m58s
+replicas=2,ready=2,available=2
+---
+2026-04-01T01:14:02+03:00
+NAME                      REFERENCE                        TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-rps   Deployment/insuretech-demo-app   51m/5     1         10        2          7m3s
+replicas=2,ready=2,available=2
+---
+2026-04-01T01:14:07+03:00
+NAME                      REFERENCE                        TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-rps   Deployment/insuretech-demo-app   51m/5     1         10        2          7m8s
+replicas=2,ready=2,available=2
+---

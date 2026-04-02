@@ -1,0 +1,44 @@
+@startuml Task5_client-info_GraphQL
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+title GraphQL API сервиса client-info (эквивалент REST из Swagger)
+
+class Query <<root>> {
+  + client(id: ID!): Client
+}
+
+class Client {
+  + id: ID!
+  + name: String
+  + age: Int
+  + documents: List~Document~
+  + relatives: List~Relative~
+}
+
+class Document {
+  + id: ID!
+  + type: String
+  + number: String
+  + issueDate: String
+  + expiryDate: String
+}
+
+class Relative {
+  + id: ID!
+  + relationType: String
+  + name: String
+  + age: Int
+}
+
+Query --> Client : client\n(GET /clients/{id}\n+ вложенные ресурсы)
+Client *-- "0..*" Document : documents\n(GET .../documents)
+Client *-- "0..*" Relative : relatives\n(GET .../relatives)
+
+note right of Query
+  Один HTTP-запрос к /graphql
+  может вернуть только карточку клиента,
+  или клиента с документами, или полный граф —
+  по выбору клиента API.
+end note
+
+@enduml

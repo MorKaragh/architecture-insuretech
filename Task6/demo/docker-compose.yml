@@ -1,0 +1,38 @@
+services:
+  edge:
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend1
+      - backend2
+      - backend3
+
+  backend1:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    environment:
+      BACKEND_NAME: backend1
+    expose:
+      - "8080"
+
+  backend2:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    environment:
+      BACKEND_NAME: backend2
+    expose:
+      - "8080"
+
+  backend3:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    environment:
+      BACKEND_NAME: backend3
+    expose:
+      - "8080"

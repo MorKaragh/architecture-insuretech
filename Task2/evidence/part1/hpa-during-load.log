@@ -1,0 +1,130 @@
+2026-04-01T00:49:21+03:00
+NAME                         REFERENCE                        TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 63%/80%   1         10        1          5m50s
+replicas=1,ready=1,available=1
+---
+2026-04-01T00:49:26+03:00
+NAME                         REFERENCE                        TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 63%/80%   1         10        1          5m55s
+replicas=1,ready=1,available=1
+---
+2026-04-01T00:49:31+03:00
+NAME                         REFERENCE                        TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 63%/80%   1         10        1          6m1s
+replicas=1,ready=1,available=1
+---
+2026-04-01T00:49:37+03:00
+NAME                         REFERENCE                        TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 63%/80%   1         10        1          6m6s
+replicas=1,ready=1,available=1
+---
+2026-04-01T00:49:42+03:00
+NAME                         REFERENCE                        TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 63%/80%   1         10        1          6m11s
+replicas=1,ready=1,available=1
+---
+2026-04-01T00:49:47+03:00
+NAME                         REFERENCE                        TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 63%/80%   1         10        1          6m17s
+replicas=1,ready=1,available=1
+---
+2026-04-01T00:49:53+03:00
+NAME                         REFERENCE                        TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 63%/80%   1         10        1          6m22s
+replicas=1,ready=1,available=1
+---
+2026-04-01T00:49:58+03:00
+NAME                         REFERENCE                        TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 63%/80%   1         10        1          6m27s
+replicas=1,ready=1,available=1
+---
+2026-04-01T00:50:04+03:00
+NAME                         REFERENCE                        TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 63%/80%   1         10        1          6m33s
+replicas=1,ready=1,available=1
+---
+2026-04-01T00:50:09+03:00
+NAME                         REFERENCE                        TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 63%/80%   1         10        1          6m38s
+replicas=1,ready=1,available=1
+---
+2026-04-01T00:50:14+03:00
+NAME                         REFERENCE                        TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 63%/80%   1         10        1          6m43s
+replicas=1,ready=1,available=1
+---
+2026-04-01T00:50:19+03:00
+NAME                         REFERENCE                        TARGETS                 MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: <unknown>/80%   1         10        1          6m48s
+replicas=1,ready=1,available=1
+---
+2026-04-01T00:51:40+03:00
+NAME                         REFERENCE                        TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 61%/80%   1         10        1          8m10s
+replicas=1,ready=1,available=1
+---
+2026-04-01T00:51:46+03:00
+NAME                         REFERENCE                        TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 61%/80%   1         10        1          8m15s
+replicas=1,ready=1,available=1
+---
+2026-04-01T00:51:51+03:00
+NAME                         REFERENCE                        TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 61%/80%   1         10        1          8m20s
+replicas=1,ready=1,available=1
+---
+2026-04-01T00:51:56+03:00
+NAME                         REFERENCE                        TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 61%/80%   1         10        1          8m25s
+replicas=1,ready=1,available=1
+---
+2026-04-01T00:52:02+03:00
+NAME                         REFERENCE                        TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 61%/80%   1         10        1          8m31s
+replicas=1,ready=1,available=1
+---
+2026-04-01T00:52:07+03:00
+NAME                         REFERENCE                        TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 61%/80%   1         10        1          8m36s
+replicas=1,ready=1,available=1
+---
+2026-04-01T00:52:12+03:00
+NAME                         REFERENCE                        TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 61%/80%   1         10        1          8m41s
+replicas=1,ready=1,available=1
+---
+2026-04-01T00:52:17+03:00
+NAME                         REFERENCE                        TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 141%/80%   1         10        1          8m46s
+replicas=2,ready=1,available=1
+---
+2026-04-01T00:52:23+03:00
+NAME                         REFERENCE                        TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 141%/80%   1         10        1          8m52s
+replicas=2,ready=2,available=2
+---
+2026-04-01T00:52:28+03:00
+NAME                         REFERENCE                        TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 141%/80%   1         10        1          8m57s
+replicas=2,ready=2,available=2
+---
+2026-04-01T00:52:33+03:00
+NAME                         REFERENCE                        TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 141%/80%   1         10        2          9m2s
+replicas=2,ready=2,available=2
+---
+2026-04-01T00:52:38+03:00
+NAME                         REFERENCE                        TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 141%/80%   1         10        2          9m7s
+replicas=2,ready=2,available=2
+---
+2026-04-01T00:52:44+03:00
+NAME                         REFERENCE                        TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 141%/80%   1         10        2          9m13s
+replicas=2,ready=2,available=2
+---
+2026-04-01T00:52:49+03:00
+NAME                         REFERENCE                        TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+insuretech-demo-hpa-memory   Deployment/insuretech-demo-app   memory: 141%/80%   1         10        2          9m18s
+replicas=2,ready=2,available=2
+---

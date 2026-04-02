@@ -1,0 +1,38 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: insurtech
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: insuretech-demo-app
+  namespace: insurtech
+  labels:
+    app: insuretech-demo-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: insuretech-demo-app
+  template:
+    metadata:
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "9898"
+        prometheus.io/path: "/metrics"
+      labels:
+        app: insuretech-demo-app
+    spec:
+      containers:
+        - name: app
+          image: ghcr.io/stefanprodan/podinfo:6.8.0
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 9898
+              name: http
+          resources:
+            requests:
+              memory: 20Mi
+            limits:
+              memory: 30Mi
