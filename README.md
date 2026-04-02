@@ -8,5 +8,3 @@
 | 4 | [Task4/SOLUTION.md](Task4/SOLUTION.md) |
 | 5 | [Task5/SOLUTION.md](Task5/SOLUTION.md) |
 | 6 | [Task6/SOLUTION.md](Task6/SOLUTION.md) |
-
-Условия заданий и контекст компании лежат локально в каталогах `context/` (в репозиторий не входят).
