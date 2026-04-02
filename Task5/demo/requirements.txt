@@ -1,0 +1,4 @@
+strawberry-graphql[fastapi]==0.252.0
+uvicorn[standard]==0.34.0
+# Совместимость с strawberry 0.252 (внутренний API pydantic)
+pydantic>=2.9.0,<2.11
